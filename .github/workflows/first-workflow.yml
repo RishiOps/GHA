@@ -18,7 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step-1
-        run: echo "Hello first GHA!"
+        run: |
+          echo "Hello Rishi!"
+          echo "I am you first automated GHA workflow"
       - name: Step-2
         run: echo "Done Bye!"
           
